@@ -1,0 +1,19 @@
+{
+  "name": "coke-social",
+  "version": "1.0.0",
+  "description": "A social site for Charlie Sheen fans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbunch-dc/coke-social.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbunch-dc/coke-social/issues"
+  },
+  "homepage": "https://github.com/rbunch-dc/coke-social#readme"
+}
