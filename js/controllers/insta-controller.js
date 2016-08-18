@@ -1,3 +1,8 @@
 app.controller('instaController', function($scope, $http){
-    $scope.test = "this is awesssoooommme!!";
+	var feed = new Instafeed({
+	    get: 'tagged',
+	    tagName: 'awesome',
+	    clientId: 'cocacola'
+    });
+    feed.run();
 });
