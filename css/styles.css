@@ -10,3 +10,9 @@ body {
   border: 2px solid #000;
   border-radius: 10px;
 }
+
+/* line 11, ../compass/sass/styles.scss */
+#facebook-container h2 {
+  color: #E61E2B;
+  margin-left: 120px;
+}
