@@ -1,4 +1,12 @@
 /* line 1, ../compass/sass/styles.scss */
 body {
-  background-color: #f5f5f5;
+  background-color: #333;
+}
+
+/* line 4, ../compass/sass/styles.scss */
+#facebook {
+  margin-left: 20px;
+  overflow: hidden;
+  border: 2px solid #000;
+  border-radius: 10px;
 }
