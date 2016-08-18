@@ -12,7 +12,9 @@ body {
 }
 
 /* line 11, ../compass/sass/styles.scss */
-#facebook-container h2 {
-  color: #E61E2B;
-  margin-left: 120px;
+#facebook-container img {
+  max-width: 20%;
+  display: inherit;
+  margin-left: 55px;
+  border-radius: 100px;
 }
