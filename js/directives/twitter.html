@@ -2,7 +2,7 @@
     <div layout="row">
         <div flex="80" flex-offset="10" ng-controller="twitterController">
             <h1>Coke Tweets!!!</h1>
-            <div class="box" flex ng-repeat="tweet in cokeTweets"
+            <div class="box" flex ng-repeat="tweet in tweets"
               ng-style="{'background': 'url({{tweet.user.profile_background_image_url}})'}"><img class="proPic" flex ng-src="{{tweet.user.profile_image_url}}">
                     <p flex>{{tweet.text}}</p>
             </div>
