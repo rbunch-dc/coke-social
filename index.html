@@ -29,8 +29,14 @@
 <div class="row">
     <!--YouTube-->
     <div class="col-md-12" ng-controller="youTubeCtrl">
-        <div ng-repeat="video in YTVidArr track by $index">
-            <iframe width="560" height="315" ng-src="{{video}}" frameborder="0" allowfullscreen></iframe>
+       <div class="carousel-inner">
+            <div class="item-active">
+                <div class="row">
+                     <div class="col-xs-3" ng-repeat="video in YTVidArr track by $index" id="reference-item-{{$index}}">
+                            <iframe width="560" height="315" ng-src="{{video}}" frameborder="0" allowfullscreen></iframe>
+                     </div>
+                </div>
+            </div>  
         </div>
     </div>
 </div>
