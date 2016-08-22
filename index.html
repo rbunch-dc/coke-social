@@ -4,7 +4,7 @@
 	<title>Coke App Done By Some Great Studnets!</title>
 	<link rel="shortcut icon" href="css/img/bottle.ico">
     <!--Bootstrap styles-->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <!--Custom styling-->
     <link href="css/styles.css" rel="stylesheet">
@@ -14,9 +14,10 @@
 <div class="container">
 	<div class="row">
 		<div id="facebook-container" class="col-md-3">
-			<img src="http://www.pngall.com/wp-content/uploads/2016/04/Coca-Cola-PNG-Image.png" />
+			<img class="img-responsive" src="http://www.pngall.com/wp-content/uploads/2016/04/Coca-Cola-PNG-Image.png" />
 			<iframe id="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcocacolaunitedstates&tabs=timeline%2C%20events%2C%20messages&width=400px&height=500px&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="400px" height="500px" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 		</div>
+		<div class="col-md-9"></div>
 	</div>
 </div>
 <div ng-controller="hamController">{{howdyFrands}}</div>
